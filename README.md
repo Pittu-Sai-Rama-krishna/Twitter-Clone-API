@@ -1,8 +1,17 @@
 # Twitter
 
-Given an `app.js` file and a database file `twitterClone.db` consisting of five tables `user`, `follower`, `tweet`, `reply`, and `like`.
+This project is a Twitter clone API that mimics the basic functionalities of Twitter. It provides a set of APIs to perform various operations such as user `registration`, `login`, `tweet creation`, `following users`, `viewing tweets`, and more.
 
-Write APIs to perform operations on the tables `user`, `follower`, `tweet`, `reply`, and `like` containing the following columns,
+Features
+
+    User registration and login
+    Creating and deleting tweets
+    Following and followers functionality
+    Viewing tweets of followed users
+    Retrieving user-specific tweets, likes, and replies
+    Detailed information about a specific tweet
+
+Written APIs to perform operations on the tables `user`, `follower`, `tweet`, `reply`, and `like` containing the following columns,
 
 **User Table**
 
@@ -206,7 +215,7 @@ Here, if user1 follows user2 then,
 
 ### Authentication with JWT Token
 
-Write a middleware to authenticate the JWT token.
+Written middleware to authenticate the JWT token.
 
 - **Scenario 1**
 
@@ -527,8 +536,3 @@ Created a Tweet
 
 <br/>
 
-Use `npm install` to install the packages.
-
-**Export the express instance using the default export syntax.**
-
-**Use Common JS module syntax.**
