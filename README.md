@@ -3,6 +3,7 @@
 This project is a Twitter clone API that mimics the basic functionalities of Twitter. It provides a set of APIs to perform various operations such as user `registration`, `login`, `tweet creation`, `following users`, `viewing tweets`, and more.
 
 Features
+
     `User registration and login`
     `Creating and deleting tweets`
     `Following and followers functionality`
